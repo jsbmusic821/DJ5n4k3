@@ -24,4 +24,4 @@ if __name__ == "__main__":
         except Exception as e:
             print(f'Failed to load extension {extension}: {e}')
 
-bot.run(os.getenv('TOKEN'))
+bot.run(os.getenv('NTgxNzUwNjk0MTUxOTc5MDM4.XOjzpg.WsUyHUuJSC1pPbh4EmAsDHOvEYQ'))
