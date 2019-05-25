@@ -5,8 +5,8 @@ from discord.ext import commands
 bot = commands.AutoShardedBot(case_insensitive=True, command_prefix=commands.when_mentioned_or(os.getenv('PREFIX')))
 bot.remove_command('help')
 bot.initials = ('modules.misc', 'modules.music', 'modules.handler', 'modules.owner')
-bot.owner = int(os.getenv('OWNER'))
-bot.color = int(os.getenv('COLOR'), 16)
+bot.owner = int(os.getenv('442368503270342719'))
+bot.color = int(os.getenv('#A5F2F3'), 16)
 
 @bot.check
 async def _bot_protection(ctx):
@@ -24,4 +24,4 @@ if __name__ == "__main__":
         except Exception as e:
             print(f'Failed to load extension {extension}: {e}')
 
-bot.run(os.getenv('TOKEN'))
+bot.run(os.getenv('NTgxNzUwNjk0MTUxOTc5MDM4.XOj0og.1OGKoCzRXy6bcd9aIW1LPjB05WI'))
